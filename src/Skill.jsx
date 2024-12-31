@@ -1,8 +1,3 @@
-import html from "./assets/html5.png";
-import css from "./assets/css.png";
-import react from "./assets/react.png";
-import php from "./assets/php.png";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHtml5,
@@ -10,7 +5,6 @@ import {
   faJs,
   faBootstrap,
   faReact,
-  faPhp,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 export default function Skill() {
@@ -142,7 +136,7 @@ export default function Skill() {
             aria-valuemax="100"
           >
             <div className="progress-bar bg-info" style={{ width: "90%" }}>
-              90%
+              80%
             </div>
           </div>
         </div>
