@@ -20,7 +20,6 @@ function App() {
       <Skill />
       <About />
       <Contact />
-
       <Footer />
     </BrowserRouter>
   );

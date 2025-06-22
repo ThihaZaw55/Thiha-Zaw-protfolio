@@ -1,172 +1,73 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHtml5,
   faCss3,
   faJs,
   faBootstrap,
   faReact,
-  faGithub,
+  faJava,
 } from "@fortawesome/free-brands-svg-icons";
+import SkillBar from "./conponents/SkillBar";
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
+
 export default function Skill() {
   return (
     <section className="container mt-5" id="skills">
-      <h1 className="text-center text-dark" id="project-title">
+      <h1 className="text-center text-dark rounded-4" id="project-title">
         Skills
       </h1>
-      <div className="row mb-3 align-items-center">
-        <div className="col-md-2 d-flex align-items-center mb-2">
-          <FontAwesomeIcon
-            icon={faHtml5}
-            size="4x"
-            className="text-danger shadow me-2"
-          />
-          <span className="text-center text-danger">HTML5</span>
-        </div>
-        <div className="col-md-10">
-          <div
-            className="progress"
-            role="progressbar"
-            aria-label="Danger example"
-            aria-valuenow="100"
-            aria-valuemin="0"
-            aria-valuemax="100"
-          >
-            <div className="progress-bar bg-danger" style={{ width: "100%" }}>
-              100%
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <SkillBar
+        icon={faHtml5}
+        text="HTML 5"
+        percent="100%"
+        width="100%"
+        color="danger"
+      />
       {/* CSS */}
-      <div className="row mb-3 align-items-center">
-        <div className="col-md-2 d-flex align-items-center mb-2">
-          <FontAwesomeIcon
-            icon={faCss3}
-            size="4x"
-            className="text-primary shadow me-2"
-          />
-          <span className="text-center text-primary">CSS 3</span>
-        </div>
-        <div className="col-md-10">
-          <div
-            className="progress"
-            role="progressbar"
-            aria-label="Primary example"
-            aria-valuenow="100"
-            aria-valuemin="0"
-            aria-valuemax="100"
-          >
-            <div className="progress-bar bg-primary" style={{ width: "90%" }}>
-              90%
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <SkillBar
+        icon={faCss3}
+        text="CSS 3"
+        percent="90%"
+        width="90%"
+        color="primary"
+      />
       {/* JavaScript */}
-      <div className="row mb-3 align-items-center">
-        <div className="col-md-2 d-flex align-items-center mb-2">
-          <FontAwesomeIcon
-            icon={faJs}
-            size="4x"
-            className="text-warning shadow me-2"
-          />
-          <span className="text-center text-warning ">JavaScript</span>
-        </div>
-        <div className="col-md-10">
-          <div
-            className="progress"
-            role="progressbar"
-            aria-label="Danger example"
-            aria-valuenow="100"
-            aria-valuemin="0"
-            aria-valuemax="100"
-          >
-            <div className="progress-bar bg-warning" style={{ width: "90%" }}>
-              90%
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <SkillBar
+        icon={faJs}
+        text="JavaScript"
+        percent="90%"
+        width="90%"
+        color="warning"
+      />
       {/* Bootstrap */}
-      <div className="row mb-3 align-items-center">
-        <div className="col-md-2 d-flex align-items-center mb-2">
-          <FontAwesomeIcon
-            icon={faBootstrap}
-            size="4x"
-            className="text-primary shadow me-2"
-          />
-          <span className="text-center text-primary ">Bootstrap</span>
-        </div>
-        <div className="col-md-10">
-          <div
-            className="progress"
-            role="progressbar"
-            aria-label="Primary example"
-            aria-valuenow="100"
-            aria-valuemin="0"
-            aria-valuemax="100"
-          >
-            <div className="progress-bar bg-primary" style={{ width: "90%" }}>
-              90%
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <SkillBar
+        icon={faBootstrap}
+        text="Bootstrap"
+        percent="90%"
+        width="90%"
+        color="primary"
+      />
       {/* React */}
-      <div className="row mb-3 align-items-center">
-        <div className="col-md-2 d-flex align-items-center mb-2">
-          <FontAwesomeIcon
-            icon={faReact}
-            size="4x"
-            className="text-info shadow me-2"
-          />
-          <span className="text-center text-info ">React</span>
-        </div>
-        <div className="col-md-10">
-          <div
-            className="progress"
-            role="progressbar"
-            aria-label="Info example"
-            aria-valuenow="100"
-            aria-valuemin="0"
-            aria-valuemax="100"
-          >
-            <div className="progress-bar bg-info" style={{ width: "90%" }}>
-              80%
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Bootstrap */}
-      <div className="row mb-3 align-items-center">
-        <div className="col-md-2 d-flex align-items-center mb-2">
-          <FontAwesomeIcon
-            icon={faGithub}
-            size="4x"
-            className="text-dark shadow me-2"
-          />
-          <span className="text-center text-dark ">Git Hub</span>
-        </div>
-        <div className="col-md-10">
-          <div
-            className="progress"
-            role="progressbar"
-            aria-label="Primary example"
-            aria-valuenow="100"
-            aria-valuemin="0"
-            aria-valuemax="100"
-          >
-            <div className="progress-bar bg-dark" style={{ width: "90%" }}>
-              90%
-            </div>
-          </div>
-        </div>
-      </div>
+      <SkillBar
+        icon={faReact}
+        text="React"
+        percent="90%"
+        width="90%"
+        color="info"
+      />
+      <SkillBar
+        icon={faJava}
+        text="Java"
+        percent="90%"
+        width="90%"
+        color="primary"
+      />
+      <SkillBar
+        icon={faLeaf}
+        text="Spring Boot"
+        percent="80%"
+        width="80%"
+        color="success"
+      />
     </section>
   );
 }

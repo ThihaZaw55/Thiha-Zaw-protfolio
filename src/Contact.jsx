@@ -9,7 +9,7 @@ export default function Contact() {
   return (
     <section className="container-fluid d-block py-4 text-white" id="contact">
       <div className="container-fluid container-md">
-        <h1 className="text-center text-dark" id="project-title">
+        <h1 className="text-center text-dark rounded-4" id="project-title">
           Contact me
         </h1>
 

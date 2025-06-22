@@ -1,6 +1,8 @@
-import myphoto from "./assets/images/cv.jpg";
+import myphoto from "./assets/images/thiha.jpg";
 import diploma from "./assets/images/diploma.jpg";
-import fcc from "./assets/images/responsive-web-design.png";
+import java from "./assets/images/java.jpg";
+import rwd from "./assets/images/responsive-web-design.png";
+import jsad from "./assets/images/js.png";
 import js from "./assets/images/JavaScript.jpg";
 import wd from "./assets/images/Web Development.jpg";
 import Card from "./conponents/CertificateCard";
@@ -12,12 +14,12 @@ export default function About() {
       id="about"
     >
       <div className="container">
-        <h1 className="text-center text-dark" id="project-title">
+        <h1 className="text-center text-dark rounded-4" id="project-title">
           About me
         </h1>
-        <div className="row">
+        <div className="row mt-2">
           <div className="col-md-6 d-flex justify-content-center">
-            <figure className="p-2 bg-light rounded-4">
+            <figure className="">
               <img
                 src={myphoto}
                 className="rounded-4"
@@ -29,10 +31,13 @@ export default function About() {
           <div className="col-md-6 d-flex align-items-center mt-5 mt-md-0">
             <p className="fs-5 text-light ms-md-0 ms-5">
               Hi, My name is Thiha Zaw.
-              <br />I am 24. I am Single.
+              <br />I am 25. I have 2 years experience in web development.
               <br />I learned Diploma in Web Development.
               <br />I studied HTML5, CSS3, JavaScript, jQuery, Bootstrap and
-              React for front-end and PHP for back-end with mySQL.
+              React for front-end.
+              <br />
+              And Java and Spring Boots for back-end with MySQL and MS SQL
+              Server.
               <br />I learned git and github.
               <br />I learned gsap for animation.
               <br />I can create Reponsive Web Design.
@@ -46,9 +51,17 @@ export default function About() {
             <div className="col-md-6">
               <Card img={diploma} title="Diploma in Web Developement" />
             </div>
-
             <div className="col-md-6">
-              <Card img={fcc} title="Responsive Web Design" />
+              <Card img={java} title="Java (J2SE)" />
+            </div>
+            <div className="col-md-6">
+              <Card img={rwd} title="Responsive Web Design" />
+            </div>
+            <div className="col-md-6">
+              <Card
+                img={jsad}
+                title="JavaScript Algorithms and Data Structures"
+              />
             </div>
 
             <div className="col-md-6">

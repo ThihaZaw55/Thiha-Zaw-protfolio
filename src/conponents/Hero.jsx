@@ -1,12 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBootstrap } from "@fortawesome/free-brands-svg-icons";
-import myphoto from "../assets/images/cv.jpg";
+import { faBootstrap, faJava } from "@fortawesome/free-brands-svg-icons";
+import myphoto from "../assets/images/thiha.jpg";
 import cv from "../assets/Thiha Zaw web developer CV.pdf";
 import html from "../assets/html5.png";
 import css from "../assets/css.png";
 import js from "../assets/javaScript.png";
 import react from "../assets/react.png";
-import pc from "../assets/images/pc.png";
+import spring from "../assets/spring.png";
 import { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 export default function Hero() {
@@ -61,14 +61,15 @@ export default function Hero() {
       <div className="row">
         <div
           ref={hero}
-          className="col-md-6 mb-0 d-flex justify-content-center flex-column align-items-md-start align-items-center"
+          className="col-md-6 mb-0 d-flex justify-content-center flex-column align-items-md-center align-items-center"
           id="hero"
         >
           <h4>
-            Hi, I'm <strong className="text-primary">Thiha Zaw</strong>
+            Hi, I'm
+            <strong className="text-primary ms-2 fs-3">Thiha Zaw</strong>
           </h4>
-          <h2>Front-End Developer</h2>
-          <p>Reponsive Web Design</p>
+          <h2>Web Developer</h2>
+          <p>My professional are</p>
           <div className="d-flex justify-content-center">
             <span className="mx-1">
               <img
@@ -109,6 +110,21 @@ export default function Hero() {
                 className="align-items-start"
               />
             </span>
+            <span className="mx-1">
+              <FontAwesomeIcon
+                icon={faJava}
+                size="2xl"
+                className="text-primary"
+              />
+            </span>
+            <span className="mx-1">
+              <img
+                src={spring}
+                alt="spring"
+                width={30}
+                className="align-items-start"
+              />
+            </span>
           </div>
           <div className="mt-3">
             <a
@@ -135,12 +151,12 @@ export default function Hero() {
           ref={heroImage}
           className="col-md-6 mt-0 d-flex justify-content-md-center justify-content-start flex-column align-items-center"
         >
-          <figure className="p-2 bg-light rounded-4">
+          <figure className="">
             <img
               src={myphoto}
-              className="rounded-4"
-              alt="Html,Js,Java,PHP"
-              width={300}
+              className="rounded-1"
+              alt="Thiha Zaw"
+              width={240}
             />
           </figure>
         </div>

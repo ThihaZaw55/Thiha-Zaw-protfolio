@@ -62,7 +62,7 @@ export default function Projects() {
         Top
       </button> */}
       <div className="container-md-fluid container">
-        <h1 className="text-center text-dark" id="project-title">
+        <h1 className="text-center text-dark rounded-4" id="project-title">
           Projects
         </h1>
 
