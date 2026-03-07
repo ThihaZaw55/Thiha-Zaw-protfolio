@@ -1,10 +1,37 @@
-# React + Vite
+# Hi 👋 I'm Thiha Zaw
 
-Hi, My name is Thiha Zaw. This is my profolio.
+💻 Full Stack Developer  
+🌱 Currently learning Spring Boot, REST APIs, Typescript 
+⚛️ Frontend: HTML,CSS, JavaScript, React, Bootstrap, Tailwind CSS  
+☕ Backend: Java
+🗄 Database: MySQL, Mysql
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🚀 Skills
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Java
+- JavaScript
+- React
+- Tailwind CSS
+- MySQL
+- Git & GitHub
+
+---
+
+## 📌 Projects
+
+🔹 House Paint Sale System (React + Tailwind + TypeScript)  
+🔹 Esthetics clinic project 
+🔹 REST API with Spring Boot (Learning)
+
+---
+
+## 📫 Contact
+
+- Email: Thihazaw55200@gmail.com
+- LinkedIn: [Thiha Zaw](https://www.linkedin.com/in/thiha-zaw-9b9898281)
+
+---
+
+⭐ Always learning new technologies.
