@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBootstrap, faJava } from "@fortawesome/free-brands-svg-icons";
-import myphoto from "../assets/images/thiha.jpg";
+import myphoto from "../assets/images/Thiha.jpg";
 import cv from "../assets/Thiha Zaw web developer CV.pdf";
 import html from "../assets/html5.png";
 import css from "../assets/css.png";
@@ -26,7 +26,7 @@ export default function Hero() {
         opacity: 1,
         x: 0,
         ease: "power2.out",
-      }
+      },
     );
     gsap.fromTo(
       heroImage.current,
@@ -39,7 +39,7 @@ export default function Hero() {
         opacity: 1,
         x: 0,
         ease: "power2",
-      }
+      },
     );
     gsap.fromTo(
       button.current,
@@ -53,7 +53,7 @@ export default function Hero() {
         opacity: 1,
         y: 0,
         ease: "power2",
-      }
+      },
     );
   }, []);
   return (

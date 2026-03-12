@@ -1,4 +1,4 @@
-import myphoto from "./assets/images/thiha.jpg";
+import myphoto from "./assets/images/Thiha.jpg";
 import diploma from "./assets/images/diploma.jpg";
 import java from "./assets/images/java.jpg";
 import rwd from "./assets/images/responsive-web-design.png";

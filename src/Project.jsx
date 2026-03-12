@@ -1,7 +1,7 @@
 import clinic from "./assets/images/clinic.png";
 import paint from "./assets/images/SiThu House Paint.png";
-import kmd from "./assets/images/kmd.png";
-import pharmacy from "./assets/images/pharmacy.png";
+import POS from "./assets/images/House_Paint_POS.png";
+import eduClass from "./assets/images/eduClass.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBootstrap } from "@fortawesome/free-brands-svg-icons";
@@ -10,7 +10,6 @@ import html from "./assets/html5.png";
 import css from "./assets/css.png";
 import js from "./assets/javaScript.png";
 import react from "./assets/react.png";
-import php from "./assets/php.png";
 import { useRef, useEffect } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
@@ -50,7 +49,7 @@ export default function Projects() {
           start: 400,
         },
       },
-      {}
+      {},
     );
   }, []);
   return (
@@ -66,17 +65,19 @@ export default function Projects() {
           Projects
         </h1>
 
-        {/* Clinic */}
         <div className="row mt-5">
           <div className="col-lg-6 col-12 mb-4 mb-lg-0">
             <div ref={project} className="card bg-transparent">
               <h2 className="card-title text-center text-light py-3">
-                BeautyCare Aesthetics Clinic
+                Paint Shop POS
               </h2>
               <div className="card-img-top">
-                <a href="https://github.com/ThihaZaw55/" className="nav-link">
+                <a
+                  href=" https://thihazaw55.github.io/house-paint/"
+                  className="nav-link"
+                >
                   <img
-                    src={clinic}
+                    src={POS}
                     alt="BeautyCare Project"
                     className="img-fluid"
                   />
@@ -101,7 +102,7 @@ export default function Projects() {
                   />
                 </p>
                 <p className="btn me-3">
-                  <img src={php} alt="" width={28} />
+                  <img src={react} alt="" width={28} />
                 </p>
               </div>
             </div>
@@ -145,11 +146,48 @@ export default function Projects() {
           <div className="col-lg-6 col-12">
             <div className="card bg-transparent">
               <h2 className="card-text text-center text-light py-3">
-                Mr. Healthy Pharmacy
+                eduClass
               </h2>
               <div className="card-img-top">
-                <a href="https://github.com/ThihaZaw55/" className="nav-link">
-                  <img src={pharmacy} alt="" className="img-fluid" />
+                <a
+                  href="https://thihazaw55.github.io/edu-Class/"
+                  className="nav-link"
+                >
+                  <img src={eduClass} alt="" className="img-fluid" />
+                </a>
+              </div>
+
+              <div className="card-body d-flex mt-2">
+                <p className="btn me-3">
+                  <img src={html} alt="" width={28} />
+                </p>
+                <p className="btn me-3">
+                  <img src={css} alt="" width={28} />
+                </p>
+                <p className="btn me-3">
+                  <img src={js} alt="" width={28} />
+                </p>
+                <p className="btn me-3">
+                  <FontAwesomeIcon
+                    icon={faBootstrap}
+                    size="2xl"
+                    className="text-primary"
+                  />
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6 col-12">
+            <div className="card bg-transparent">
+              <h2 className="card-text text-center text-light py-3">
+                Esthetic Clinic
+              </h2>
+              <div className="card-img-top">
+                <a
+                  href="https://github.com/ThihaZaw55/esthetics-clinic"
+                  className="nav-link"
+                >
+                  <img src={clinic} alt="" className="img-fluid" />
                 </a>
               </div>
 

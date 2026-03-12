@@ -3,13 +3,13 @@ import Footer from "./conponents/Footer.jsx";
 
 import Hero from "./conponents/Hero.jsx";
 import Project from "./Project.jsx";
-import Skill from "./Skill.jsx";
+// import Skill from "./Skill.jsx";
 import About from "./Aboutme.jsx";
 import Contact from "./Contact.jsx";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-// import "./index.css";
+import "./index.css";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <Navbar />
       <Hero />
       <Project />
-      <Skill />
+      {/* <Skill /> */}
       <About />
       <Contact />
       <Footer />
