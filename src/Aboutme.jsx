@@ -30,18 +30,13 @@ export default function About() {
           </div>
           <div className="col-md-6 d-flex align-items-center mt-5 mt-md-0">
             <p className="fs-5 text-light ms-md-0 ms-5">
-              Hi, My name is Thiha Zaw.
-              <br />I am 25. I have 2 years experience in web development.
-              <br />I learned Diploma in Web Development.
-              <br />I studied HTML5, CSS3, JavaScript, jQuery, Bootstrap and
-              React for front-end.
-              <br />
-              And Java and Spring Boots for back-end with MySQL and MS SQL
-              Server.
-              <br />I learned git and github.
-              <br />I learned gsap for animation.
-              <br />I can create Reponsive Web Design.
-              <br />I can create Dynamic Web Design.
+              My name is Thiha Zaw.I am 26 years old.
+              <br />I am a Software Developer with 2 years of experience in the
+              banking sector at Myanmar Information Technology. I work mainly
+              with Java and Microsoft SQL Server, focusing on backend
+              development and building secure, efficient systems. I am
+              passionate about learning new technologies and improving my skills
+              in full-stack development.
             </p>
           </div>
         </div>
