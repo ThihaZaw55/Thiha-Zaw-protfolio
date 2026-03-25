@@ -1,9 +1,7 @@
 import Navbar from "./conponents/Navbar.jsx";
 import Footer from "./conponents/Footer.jsx";
-
 import Hero from "./conponents/Hero.jsx";
 import Project from "./Project.jsx";
-// import Skill from "./Skill.jsx";
 import About from "./Aboutme.jsx";
 import Contact from "./Contact.jsx";
 
@@ -17,7 +15,6 @@ function App() {
       <Navbar />
       <Hero />
       <Project />
-      {/* <Skill /> */}
       <About />
       <Contact />
       <Footer />

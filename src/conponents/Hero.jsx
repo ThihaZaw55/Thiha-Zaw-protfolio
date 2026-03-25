@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBootstrap, faJava } from "@fortawesome/free-brands-svg-icons";
 import myphoto from "../assets/images/Thiha.jpg";
-import cv from "../assets/Thiha Zaw web developer CV.pdf";
+import cv from "../assets/Web_Developer_Resume_ThihaZaw.pdf";
 import html from "../assets/html5.png";
 import css from "../assets/css.png";
 import js from "../assets/javaScript.png";

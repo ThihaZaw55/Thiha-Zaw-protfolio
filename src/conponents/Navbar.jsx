@@ -1,26 +1,30 @@
+import { useEffect, useState } from "react";
+
 export default function Header() {
-  const sidebar = document.getElementById("sidebar");
-  const menu = document.getElementById("menu");
-  const menuHandel = () => {
-    const sidebar = document.getElementById("sidebar");
-    const menu = document.getElementById("menu");
-
-    sidebar.style.display = "block";
-  };
-
-  const closeHandel = () => {
-    const sidebar = document.getElementById("sidebar");
-    const menu = document.getElementById("menu");
-
-    sidebar.style.display = "none";
-    menu.style.display = "block";
-  };
+  const [open, setOpen] = useState(false);
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 768) {
+        setOpen(false);
+      }
+    };
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  });
 
   return (
     <header className="d-block container-fluid container-md mx-auto mt-3">
       {/* Side bar */}
-      <ul id="sidebar" className="navbar-nav vh-100 z-3 mb-2 mb-lg-0">
-        <li onClick={() => closeHandel()} className="nav-item px-1" id="close">
+      <ul
+        id="sidebar"
+        style={{
+          display: open ? "block" : "none",
+        }}
+        className="navbar-nav vh-100 z-3 mb-2 mb-lg-0"
+      >
+        <li onClick={() => setOpen(false)} className="nav-item px-1" id="close">
           <span className="nav-link pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -141,7 +145,7 @@ export default function Header() {
               </a>
             </li>
             <li
-              onClick={() => menuHandel()}
+              onClick={() => setOpen(true)}
               className="nav-item d-lg-none d-md-inline"
               id="menu"
             >

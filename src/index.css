@@ -15,8 +15,8 @@
 
 body {
   min-height: 100vh;
-  font-family: Roboto, Poppins, "Segoe UI", Tahoma, monospace, Verdana,
-    sans-serif;
+  font-family:
+    Roboto, Poppins, "Segoe UI", Tahoma, monospace, Verdana, sans-serif;
   margin: 0;
   background-color: var(--bg-gray);
 }
@@ -31,14 +31,18 @@ li {
 /* Header */
 header nav {
   height: 67px;
-  box-shadow: 10px 10px 20px white, -10px -10px 20px black;
+  box-shadow:
+    10px 10px 20px white,
+    -10px -10px 20px black;
 }
 header li {
   margin: 0 5px;
 }
 nav li:hover:not(#close, #menu),
 #sidebar li a:hover:not(#content-icon) {
-  box-shadow: 10px 10px 20px white, -10px -10px 20px black;
+  box-shadow:
+    10px 10px 20px white,
+    -10px -10px 20px black;
   border-radius: 20px;
   backdrop-filter: blur(10px);
   background: transparent;
@@ -46,7 +50,9 @@ nav li:hover:not(#close, #menu),
 }
 nav li:hover:not(#close, #menu),
 #sidebar li a:hover:not(#content-icon) {
-  box-shadow: 10px 10px 20px white, -10px -10px 20px black;
+  box-shadow:
+    10px 10px 20px white,
+    -10px -10px 20px black;
   border-radius: 20px;
   backdrop-filter: blur(10px);
   background: transparent;
@@ -85,16 +91,22 @@ nav li:hover:not(#close, #menu),
   margin: 15px 0;
   padding: 5px 15px;
   border-radius: 10px;
-  box-shadow: 10px 10px 20px white, -10px -10px 20px black;
+  box-shadow:
+    10px 10px 20px white,
+    -10px -10px 20px black;
 }
 #hero span {
   box-shadow: 0px 0px 10px white;
 }
 .btn {
-  box-shadow: 1px 1px 5px white, -1px -1px 5px black;
+  box-shadow:
+    1px 1px 5px white,
+    -1px -1px 5px black;
 }
 .btn:hover {
-  box-shadow: 5px 5px 10px black, -5px -5px 10px white;
+  box-shadow:
+    5px 5px 10px black,
+    -5px -5px 10px white;
 }
 /* Hero */
 
